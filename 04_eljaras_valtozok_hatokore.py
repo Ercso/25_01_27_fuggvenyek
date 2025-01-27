@@ -10,10 +10,12 @@ def kepernyore_ir():
   
   
 globalis_valtozo = 'gyümölcs'
-kepernyore_ir()
+#kepernyore_ir()
+lokalis_valtozo = kepernyore_ir()
+#print(f'{kepernyore_ir()} return eredmény')
   
 print(globalis_valtozo)
 # a lokalis_valtozo az eljáráson KÍVŰL nem elérhető !!!
-print(lokalis_valtozo) # hibát eredményez !!!
+#print(lokalis_valtozo) # hibát eredményez !!!
     
     
