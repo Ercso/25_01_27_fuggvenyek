@@ -12,12 +12,16 @@ def masodik(szam):
 
 """Addig lehessen számokat megadni, amíg a felhasználó nem ad meg üres sztringet!"""
 
-szam = 0
+megy = True
 
-while szam != '':
+
+while megy:
     szam = input('Adj meg egy számot: ')
-    if szam != '':
-        szam = int(szam)
+    if szam == '':
+        megy = False
+    else:
+        szam = float(szam)
+        masodik(szam)
     
 
 
